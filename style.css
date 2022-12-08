@@ -11,17 +11,30 @@
     text-decoration-color: lightblue;
     margin: auto;
     text-align: center;
+    height: 10%;
+    z-index: 2;
 }
 a {
     text-decoration: none;
 }
 #start {
-    height: 80%;
+    position: absolute;
     width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 #aggravating {
     font-size: 80px;
     text-align: center;
+    z-index: 55;
+    position: relative;
+    top: 50px;
+}
+.another-animation {
+    animation-name: atypical-website;
+    animation-duration: 2;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
 }
 i {
     font-size: 10px;
@@ -33,12 +46,14 @@ div h2 {
     text-align: center;
     font-size: 20px;
     margin: 40px;
+    top: 50%;
 }
 #animation {
     animation-name: typical-website;
     animation-duration: 2s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
+    top: 100px;
 }
 @keyframes typical-website {
     0% {
@@ -46,7 +61,7 @@ div h2 {
         color: lightblue;
     }
     16.666666667% {
-        font: 15px;
+        font-size: 15px;
         color: lightblue;
     }
     25% {
@@ -78,3 +93,50 @@ div h2 {
         font-size: 20px;
     }
 }
+img {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    border: 10px black solid;
+ }
+ @keyframes atypical-website {
+    0% {
+        font-size: 80px;
+        color: lightblue;
+    }
+    16.666666667% {
+        font-size: 40px;
+        color: lightblue;
+    }
+    25% {
+        transform: rotate(-45deg);
+        font-size: 80px;
+    }
+    33.33333333% {
+        font-size: 40px;
+        color: limegreen;
+    }
+    50% {
+        transform: rotate(0deg);
+        font-size: 80px;
+    }
+    66.666666667% {
+        font-size: 40px;
+        color: orange;
+    }
+    75% {
+        transform: rotate(45deg);
+        font-size: 80px;
+    }
+    91.666666667% {
+        font-size: 40px;
+        color: lightblue;
+    }
+    100% {
+        transform: rotate(0deg);
+        font-size: 80px;
+    }
+ }
