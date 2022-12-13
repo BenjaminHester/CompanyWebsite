@@ -7,3 +7,15 @@
     min-width: 50px;
     background-color: turquoise;
 }
+#navigation {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: limegreen;
+    border: 10px dotted orange;
+    text-decoration-color: lightblue;
+    margin: auto;
+    text-align: center;
+    height: 10%;
+    z-index: 2;
+}
