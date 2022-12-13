@@ -1,0 +1,20 @@
+* {
+    font-size: 50px;
+    margin: auto;
+    padding: 5px;
+    background-color: turquoise;
+    color: orange;
+}
+footer {
+    text-align: center;
+}
+input {
+    text-align: center;
+}
+i {
+    color: orange;
+}
+fieldset {
+    background-color: limegreen;
+    color: turquoise;
+}
