@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Creepster&family=Lato:wght@700&display=swap');
 * {
     font-size: 50px;
     margin: auto;
     padding: 5px;
     background-color: turquoise;
     color: orange;
+    font-family: 'Chewy', cursive;
 }
-footer {
+    footer {
     text-align: center;
+    font-family: 'Creepster', cursive;
 }
 input {
     text-align: center;
