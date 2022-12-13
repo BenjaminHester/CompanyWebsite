@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Creepster&family=Lato:wght@700&display=swap');
 *:not(img) {
     margin: 0;
     padding: 0;
+    font-family: 'Chewy', cursive;
 }
 #navigation {
     font-size: 40px;
@@ -54,6 +56,7 @@ div h2 {
     top: 50%;
 }
 #animation {
+    font-family: 'Creepster', cursive;
     animation-name: typical-website;
     animation-duration: 2s;
     animation-delay: 0s;
@@ -63,11 +66,11 @@ div h2 {
 @keyframes typical-website {
     0% {
         font-size: 20px;
-        color: lightblue;
+        color: turquoise;
     }
     16.666666667% {
         font-size: 15px;
-        color: lightblue;
+        color: turquoise;
     }
     25% {
         transform: rotate(45deg);
@@ -91,7 +94,7 @@ div h2 {
     }
     91.666666667% {
         font-size: 15px;
-        color: lightblue;
+        color: turquoise;
     }
     100% {
         transform: rotate(0deg);
@@ -123,7 +126,7 @@ img {
     }
     33.33333333% {
         font-size: 40px;
-        color: lightblue;
+        color: turquoise;
     }
     50% {
         transform: rotate(0deg);

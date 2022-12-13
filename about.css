@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Creepster&family=Lato:wght@700&display=swap');
+* {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    min-height: 100px;
+    min-width: 50px;
+    background-color: turquoise;
+}
